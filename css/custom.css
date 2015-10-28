@@ -30,7 +30,9 @@ border-width: 0px;
 	color: #fff;
 }
 ul.dropdown-menu {
-	background-color: rgba(0, 0, 0, 0.8);
+/*	background-color: rgba(0, 0, 0, 0.8);
+*/
+	background-color:#bd1d2c;
 }
 ul.dropdown-menu>li>a {
 	color: #fff;
@@ -71,12 +73,12 @@ ul.dropdown-menu>li>a {
 	font-size: 1.4em;
 	margin-top: 30px;
 }
-button.btn.btn-default.ghost {
+.btn.btn-default.ghost {
 	color: #fff;
 	background-color: rgba(255, 255, 255, 0);
 	border-color: #fff;
 }
-button.btn.btn-default.ghost:hover {
+.btn.btn-default.ghost:hover {
 	color: #bd1d2c;
 	background-color: #fff;
 }
@@ -89,7 +91,8 @@ button.btn.btn-default.ghost:hover {
 	background-size: cover;
 }
 .hero-logo {
-	height: 70px;
+	height: 90px;
+	margin-bottom: 30px;
 }
 #hero h1 {
 	color: #fff;
@@ -145,13 +148,25 @@ button.btn.btn-default.ghost:hover {
 	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.7);
 	z-index: 5
 }
-.contact {
-	min-height: 500px;
+
+
+#contact {
+	color:white;
 	background-color: #bd1d2c;
 	-webkit-box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.8);
 	-moz-box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.8);
 	box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.8);
 }
+
+#contact h3 {
+	font-weight: 800;
+	margin-top: 30px;
+	margin-bottom: 30px;}
+
+.form-control{
+	border-radius: 0px;
+}
+
 #footer {
 	padding-bottom: 30px;
 	padding-top: 30px;
@@ -159,6 +174,11 @@ button.btn.btn-default.ghost:hover {
 	background-color: #bd1d2c;
 	color: #fff;
 }
+
+.help-block{color:#fff;
+font-weight: 300;
+font-size: .8em;
+text-align: left;}
 #footer a {
 	color: #fff;
 	text-decoration: none;
